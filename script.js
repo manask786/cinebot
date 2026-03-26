@@ -331,7 +331,7 @@ async function saveBooking() {
     }
 
     try {
-        const response = await fetch('http://127.0.0.1:3000/api/bookings', {
+        const response = await fetch('https://cinebot-qu3b.onrender.com/api/bookings', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -351,7 +351,7 @@ async function fetchHistory() {
     let isOffline = false;
 
     try {
-        const response = await fetch('http://127.0.0.1:3000/api/bookings');
+        const response = await fetch('https://cinebot-qu3b.onrender.com/api/bookings');
         const result = await response.json();
         data = result.data || [];
     } catch (error) {
