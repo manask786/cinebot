@@ -1,13 +1,17 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path'); // 🔥 ADD THIS
 const db = require('./database');
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000; // 🔥 IMPORTANT for Render
 
 app.use(cors());
 app.use(bodyParser.json());
+
+// 🔥 SERVE FRONTEND FILES
+app.use(express.static(path.join(__dirname)));
 
 // API to save a booking
 app.post('/api/bookings', (req, res) => {
@@ -53,6 +57,11 @@ app.get('/api/bookings', (req, res) => {
     });
 });
 
+// 🔥 MAIN ROUTE (VERY IMPORTANT)
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
+});
+
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
 });
