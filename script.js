@@ -18,18 +18,18 @@ const micBtn = document.getElementById('mic-btn');
 
 // Chat state
 const movies = [
-    { title: "Inception", poster: "images/inception.jpg", genre: "Sci-Fi", rating: "4.8" },
-    { title: "Interstellar", poster: "images/interstellar.jpg", genre: "Sci-Fi", rating: "4.7" },
-    { title: "The Dark Knight", poster: "images/dark_knight.jpg", genre: "Action", rating: "4.9" },
-    { title: "Avatar", poster: "images/avatar.jpg", genre: "Sci-Fi", rating: "4.6" },
-    { title: "Mad Max: Fury Road", poster: "images/mad_max_fury_road.jpg", genre: "Action", rating: "4.5" },
-    { title: "Forrest Gump", poster: "images/forrest_gump.jpg", genre: "Drama", rating: "4.8" },
-    { title: "The Shawshank Redemption", poster: "images/shawshank_redemption.jpg", genre: "Drama", rating: "4.9" },
-    { title: "Jurassic Park", poster: "images/jurassic_park.jpg", genre: "Adventure", rating: "4.7" },
-    { title: "La La Land", poster: "images/la_la_land.png", genre: "Musical", rating: "4.4" },
-    { title: "Everything Everywhere All At Once", poster: "images/everything_everywhere_all_at_once.jpg", genre: "Sci-Fi", rating: "4.5" },
-    { title: "Oppenheimer", poster: "images/oppenheimer.jpg", genre: "Biography", rating: "4.7" },
-    { title: "The Revenant", poster: "images/revenant.jpg", genre: "Adventure", rating: "4.3" }
+    { title: "Inception", poster: "https://m.media-amazon.com/images/I/51v5ZpFyaFL._AC_.jpg", genre: "Sci-Fi", rating: "4.8" },
+    { title: "Interstellar", poster: "https://m.media-amazon.com/images/I/71n58S6nMUL._AC_SY679_.jpg", genre: "Sci-Fi", rating: "4.7" },
+    { title: "The Dark Knight", poster: "https://m.media-amazon.com/images/I/51EbJjlLgRL._AC_.jpg", genre: "Action", rating: "4.9" },
+    { title: "Avatar", poster: "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg", genre: "Sci-Fi", rating: "4.6" },
+    { title: "Mad Max: Fury Road", poster: "https://m.media-amazon.com/images/I/81z-2hH5+6L._AC_SY679_.jpg", genre: "Action", rating: "4.5" },
+    { title: "Forrest Gump", poster: "https://m.media-amazon.com/images/I/61+3wW1s0XL._AC_SY679_.jpg", genre: "Drama", rating: "4.8" },
+    { title: "The Shawshank Redemption", poster: "https://m.media-amazon.com/images/I/51NiGlapXlL._AC_.jpg", genre: "Drama", rating: "4.9" },
+    { title: "Jurassic Park", poster: "https://m.media-amazon.com/images/I/71k8F6v0Q9L._AC_SY679_.jpg", genre: "Adventure", rating: "4.7" },
+    { title: "La La Land", poster: "https://m.media-amazon.com/images/I/81tQ2P0QXkL._AC_SY679_.jpg", genre: "Musical", rating: "4.4" },
+    { title: "Everything Everywhere All At Once", poster: "https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SY679_.jpg", genre: "Sci-Fi", rating: "4.5" },
+    { title: "Oppenheimer", poster: "https://m.media-amazon.com/images/I/71V6N7P3G-L._AC_SY679_.jpg", genre: "Biography", rating: "4.7" },
+    { title: "The Revenant", poster: "https://m.media-amazon.com/images/I/81eT9qQ2DUL._AC_SY679_.jpg", genre: "Adventure", rating: "4.3" }
 ];
 const showtimes = ["12:00 PM", "3:00 PM", "6:00 PM"];
 const seatPrices = {
