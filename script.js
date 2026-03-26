@@ -18,14 +18,14 @@ const micBtn = document.getElementById('mic-btn');
 
 // Chat state
 const movies = [
-    { title: "Inception", poster: "https://image.tmdb.org/t/p/w500/qmDpIHrmpJINaRKAfWQfftjCdyi.jpg", genre: "Sci-Fi", rating: "4.8" },
+    { title: "Inception", poster: "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg", genre: "Sci-Fi", rating: "4.8" },
     { title: "Interstellar", poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg", genre: "Sci-Fi", rating: "4.7" },
     { title: "The Dark Knight", poster: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg", genre: "Action", rating: "4.9" },
     { title: "Avatar", poster: "https://image.tmdb.org/t/p/w500/kyeqWdyUXW608qlYkRqosgbbJyK.jpg", genre: "Sci-Fi", rating: "4.6" },
     { title: "Mad Max: Fury Road", poster: "https://image.tmdb.org/t/p/w500/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg", genre: "Action", rating: "4.5" },
     { title: "Forrest Gump", poster: "https://image.tmdb.org/t/p/w500/clolk7rB5lAjs41SD0Vt6IXYLMm.jpg", genre: "Drama", rating: "4.8" },
     { title: "The Shawshank Redemption", poster: "https://image.tmdb.org/t/p/w500/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", genre: "Drama", rating: "4.9" },
-    { title: "Jurassic Park", poster: "https://image.tmdb.org/t/p/w500/c414cDeQ9b6qLPLeKmiJuLDUREJ.jpg", genre: "Adventure", rating: "4.7" },
+    { title: "Jurassic Park", poster: "https://image.tmdb.org/t/p/w500/9i3plLl89DHMz7mahksDaAo7HIS.jpg", genre: "Adventure", rating: "4.7" },
     { title: "La La Land", poster: "https://image.tmdb.org/t/p/w500/uDO8zWDhfWwoFdKS4fzkUJt0Rf0.jpg", genre: "Musical", rating: "4.4" },
     { title: "Everything Everywhere All At Once", poster: "https://image.tmdb.org/t/p/w500/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg", genre: "Sci-Fi", rating: "4.5" },
     { title: "Oppenheimer", poster: "https://image.tmdb.org/t/p/w500/ptpr0kGAckfQkJeJIt8st5dglvd.jpg", genre: "Biography", rating: "4.7" },
